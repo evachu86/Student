@@ -13,6 +13,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private String numHours;
 
     /**
      * Get the value of name
@@ -31,6 +32,24 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+	/**
+	 * Gets the num hours.
+	 *
+	 * @return the num hours
+	 */
+	public String getNumHours() {
+		return numHours;
+	}
+
+	/**
+	 * Sets the num hours.
+	 *
+	 * @param numHours the new num hours
+	 */
+	public void setNumHours(String numHours) {
+		this.numHours = numHours;
+	}
 
 }
  
